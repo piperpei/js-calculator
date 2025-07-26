@@ -1,0 +1,55 @@
+<!-- HTML -->
+
+<!DOCTYPE html>
+
+<!-- Meta and Title-->
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Calculator</title>
+    </head>
+
+    <body>
+
+    <!-- 1st Number Input -->
+
+    <input id="num1" placeholder="First Number" />
+
+    <!-- Dropdown for Operation -->
+
+    <select id="operation"> 
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+    </select>
+
+    <!-- 2nd Number Input -->
+
+    <input id="num2" placeholder="Second Number" />
+
+    <!-- Calculation Button-->
+
+    <button id="calculateButton">Click to Calculate</button>
+
+    <!-- Printed Results -->
+
+    <p id="result"></p>
+
+    <!-- Result History-->
+
+    <div id="history">
+        <h4>Calculation History:</h4>
+        <ul id="historyList"></ul>
+    </div>
+
+    <!-- Link to JavaScript File -->
+
+    <script src="calculator.js"></script>
+
+    </body>
+
+</html>
